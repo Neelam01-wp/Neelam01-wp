@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Notes App in JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <header class="navbar">
+        <h1 class="navbar-title">My Notes</h1>
+        <div class="navbar-actions">
+          <i class="uil uil-moon navbar-icon" id="darkModeToggle" style="font-size:40px;"></i>
+        </div>
+    </header>
+
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+           <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+           <form>
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
+            </div>
+             <div class="row description">
+              <label>Description</label>
+
+              <textarea id="descriptionText" spellcheck="true"></textarea>
+            </div>
+
+
+
+
+
+
+
+            <button type="button" class="add-note-btn">Add Note</button>
+           </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+      </li>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
