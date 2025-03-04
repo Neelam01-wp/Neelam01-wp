@@ -49,7 +49,3 @@ This project is a simple note-taking application built using HTML, CSS, and Java
 * **Note Editing:** Add functionality to edit existing notes.
 * **Search Functionality:**  Allow users to search for notes containing specific keywords.
 * **Enhanced UI:** Improve the user interface for a more polished and user-friendly experience.
-
-
-This README provides a general overview.  The specifics of the implementation will depend on the content of the provided `index.html`, `styles.css`, and `script.js` files.
-```
